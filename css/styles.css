@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Main Wrapper */
+main{
+    text-align: center;
+    margin: 60px auto;
+}
+
+
+/* Google Logo */
+.logo{
+    font-size: 5.5rem;
+    margin-bottom: 25px;
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 500;
+}
+.g {
+    color: #4285f4;
+}
+#o1 , #e {
+    color: #ea4335;
+}
+#o2{
+    color: #fbbc05;
+}
+#l{ 
+    color: #34a853;
+}
+
+
+/* Search bar */
+#search-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+#searchBar{
+    width: 45%;
+    padding: 13px 40px;
+    border-radius: 24px;
+    border:  1px solid #dfe1e5;
+}
+#searchBar:hover{
+    box-shadow:0 1px 6px rgb(32 33 36 / 28%);
+}
+#searchBar:focus-visible{
+    border : 1px solid #dfe1e5;
+    box-shadow:0 1px 6px rgb(32 33 36 / 28%);
+    outline : none;
+}
+#search::before{
+    content: "";
+    position: absolute;
+    padding: 15px;
+    background: url("../assets/search-icon.png") no-repeat center;
+    background-size: 22px;
+    height: 15px;
+    width: 15px;
+}
+#search::after{
+    content: "";
+    position: absolute;
+    padding: 15px;
+    right : 28%; 
+    background: url("../assets/mic.png") no-repeat center;
+    background-size: 24px;
+    height: 15px;
+    width: 15px;
+}
+
+
+
+/* Buttons */
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    color: #3c4043; 
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{   
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
+/* Nav for "Google Offered Languages" */
+nav{
+    padding: 25px 0;
+}
+nav > ul {
+    list-style-type: none;
+} 
+.nav-item {
+    display: inline;
+}
+.nav-item > a {
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: small;
+    color: #1a0dab;
+    padding: 2px;
+}
+.nav-item > span {
+   font-family: arial,sans-serif;
+   font-weight: lighter;
+   font-size: small;
+   color: #3c4043;
+}
+
+
+
+
+        
